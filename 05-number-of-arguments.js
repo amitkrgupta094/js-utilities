@@ -27,5 +27,5 @@
  * @return {number}
  */
 export default function numberOfArguments() {
-  return arguments.length;
-}
+    return arguments.length;
+  }

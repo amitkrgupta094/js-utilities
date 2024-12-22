@@ -37,7 +37,7 @@
  * @returns {number} Returns the clamped number.
  */
 export default function clamp(value, lower, upper) {
-  if (value > upper) return upper;
-  if (value < lower) return lower;
-  return value;
-}
+    if(value <= lower) return lower;
+    if(value >= upper) return upper;
+    return value;
+  }

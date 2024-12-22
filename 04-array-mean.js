@@ -20,12 +20,24 @@
  *
  */
 
+// /**
+//  * @param {Array} array - Array from which the elements are all numbers.
+//  * @return {Number} Returns mean.
+//  */
+// export default function mean(array) {
+//   let arrLen = array.length;
+//   if (!arrLen) return NaN;
+//   return array.reduce((acc, num) => (acc += num), 0) / arrLen;
+// }
+
 /**
  * @param {Array} array - Array from which the elements are all numbers.
  * @return {Number} Returns mean.
  */
 export default function mean(array) {
-  let arrLen = array.length;
-  if (!arrLen) return NaN;
-  return array.reduce((acc, num) => (acc += num), 0) / arrLen;
+  let arraySum = 0;
+  let arrayLength = array.length;
+
+  for (let i = 0; i < array.length; i++) arraySum += array[i];
+  return arraySum / arrayLength;
 }

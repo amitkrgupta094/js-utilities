@@ -29,7 +29,7 @@
  * @return {Function}
  */
 export default function makeCounter(initialValue = 0) {
-  return function () {
-    return initialValue++;
-  };
-}
+    return function() {
+      return initialValue++;
+    }
+  }

@@ -24,6 +24,5 @@
  * @return {number}
  */
 export default function functionLength(fn) {
-  if (typeof fn !== "function") throw "Not implemented";
-  return fn.length;
-}
+    return fn.length;
+  }
