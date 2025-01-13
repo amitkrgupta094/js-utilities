@@ -17,6 +17,7 @@
  *
  *
  *  The key takeway: Function is an object.
+ *  and it has length property.
  */
 
 /**

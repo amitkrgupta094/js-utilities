@@ -27,6 +27,7 @@
  * clamp(10, -5, 5); // => 5
  *
  *
+ * Key Take away: Use comprator operators.
  *
  */
 

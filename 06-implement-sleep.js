@@ -40,6 +40,11 @@ sleep(2000).then(() => {
   console.log("Bye."); // Only logs after 2000 milliseconds (2 seconds)
 });
 
+
+// Key Takeaway:
+// Promise should wrap up a setTimeout that runs after duration.
+// It is a promise hence it is thenable and also awaitable.
+
 /** MY SOLUTION */
 /**
  * @param {number} duration

@@ -20,6 +20,11 @@
  *
  * variadic functions:
  * A function that takes variable number of arguments.
+ *
+ *
+ * Key Takeaway:
+ * A function can have variable number of arguments saved
+ * inside of spcial property called arguments.
  */
 
 /**
