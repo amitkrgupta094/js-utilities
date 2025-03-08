@@ -1,9 +1,0 @@
-# Articles Link
-
-## composition
-- https://whatthefuck.is/composition
-
-
-## Sparse Arrays
-- https://remysharp.com/2018/06/26/an-adventure-in-sparse-arrays
-- https://dmitripavlutin.com/javascript-sparse-dense-arrays/
