@@ -91,3 +91,6 @@ MyHashMap.prototype.remove = function (key) {
  * var param_2 = obj.get(key)
  * obj.remove(key)
  */
+
+
+// Check - https://neetcode.io/solutions/design-hashmap

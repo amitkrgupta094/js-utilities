@@ -77,3 +77,6 @@ MyHashSet.prototype.contains = function(key) {
  * obj.remove(key)
  * var param_3 = obj.contains(key)
  */
+
+
+// Check = https://neetcode.io/solutions/design-hashset
