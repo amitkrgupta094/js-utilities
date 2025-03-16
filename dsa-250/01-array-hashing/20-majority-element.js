@@ -60,7 +60,4 @@ var majorityElement = function(nums) {
 
 
     return majorityElementArr;
-
-
-
 };
