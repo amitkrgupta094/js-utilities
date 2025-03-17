@@ -36,3 +36,33 @@ Output: [["a"]]
 - `0 <= strs[i].length <= 100`
 - `strs[i]` consists of lowercase English letters.
 */
+
+
+/**
+ * @param {string[]} strs
+ * @return {string[][]}
+ */
+
+
+// TC: nLogn + n, SC: O(n)
+var groupAnagrams = function(strs) {
+    const anagramMap = new Map();
+    let sortedStrs = strs.map((str) => str.split('').sort().join(''));
+
+    for(let i = 0; i < sortedStrs.length; i++) {
+        if(!anagramMap.has(sortedStrs[i])) {
+            anagramMap.set(sortedStrs[i], [strs[i]])
+        } else {
+            let indexArr = anagramMap.get(sortedStrs[i])
+            indexArr.push(strs[i]);
+            anagramMap.set(sortedStrs[i], indexArr)
+        }
+    };
+
+    let anagramList = [];
+    for(let [k,v] of anagramMap) {
+        anagramList.push(v);
+    }
+
+    return anagramList;
+};
